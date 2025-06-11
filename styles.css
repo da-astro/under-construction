@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/96/The_Andromeda-Galaxy_in_a_crowded_sky.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attribution {
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(175, 174, 174);
+    font-size: 0.9em;
+}
