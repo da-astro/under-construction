@@ -21,8 +21,13 @@ body {
 }
 
 .attribution {
-    margin-bottom: 10px;
-    text-align: center;
-    color: rgb(175, 174, 174);
-    font-size: 0.9em;
+  display: inline-block;           /* Shrinks box to text width */
+  background: rgba(0, 0, 0, 0.5);  /* Black, 50% transparent */
+  border-radius: 12px;             /* Rounded corners */
+  padding: 8px 16px;               /* Space inside the box */
+  color: #a8a8a8;                     /* White text */
+  font-size: 0.95em;
+  margin-bottom: 12px;             /* Space from bottom if needed */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3); /* Optional: subtle shadow */
 }
+
