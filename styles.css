@@ -39,7 +39,7 @@ body {
   border-radius: 12px;             /* Rounded corners */
   padding: 8px 16px;               /* Space inside the box */
   color: #a0a0a0;                     /* White text */
-  font-size: 0.95em;
+  font-size: 0.65em;
   margin-bottom: 12px;             /* Space from bottom if needed */
   box-shadow: 0 2px 8px rgba(0,0,0,0.3); /* Optional: subtle shadow */
 }
