@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/96/The_Andromeda-Galaxy_in_a_crowded_sky.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    color: rgb(233, 233, 233);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 16px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.45);  /* Black, 50% transparent */
+    border-radius: 12px;             /* Rounded corners */
+    padding: 8px 16px; 
+    color: #d3d3d3; /* Light gray text */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3); /* Optional: subtle shadow */
+}
+
+.attribution {
+  display: inline-block;           /* Shrinks box to text width */
+  background: rgba(0, 0, 0, 0.5);  /* Black, 50% transparent */
+  border-radius: 12px;             /* Rounded corners */
+  padding: 8px 16px;               /* Space inside the box */
+  color: #a0a0a0;                     /* White text */
+  font-size: 0.65em;
+  margin-bottom: 12px;             /* Space from bottom if needed */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3); /* Optional: subtle shadow */
+}
+
+a {
+  color: #d3d3d3; /* Changes default link color */
+}
